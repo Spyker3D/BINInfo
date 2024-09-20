@@ -16,7 +16,7 @@ interface CardInfoDao {
     @Delete(entity = CardInfoDb::class)
     suspend fun deleteEntity(cardInfo: CardInfoDb)
 
-    @Query("SELECT * FROM cardinfo_table")
+    @Query("SELECT * FROM cardinfo_table ORDER BY time_added")
     fun getAllCardInfoEntries(): Flow<List<CardInfoDb>>
 
     @Query("SELECT * FROM cardinfo_table WHERE bin_number = :binNumber")

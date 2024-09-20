@@ -15,5 +15,7 @@ data class CardInfoDb(
     @ColumnInfo(name = "bin_number")
     val binNumber: String,
     @Embedded val cardDetails: CardDetails,
-    @Embedded val bankDetails: BankDetails
+    @Embedded val bankDetails: BankDetails,
+    @ColumnInfo(name = "time_added")
+    val timeAdded: Long
 )

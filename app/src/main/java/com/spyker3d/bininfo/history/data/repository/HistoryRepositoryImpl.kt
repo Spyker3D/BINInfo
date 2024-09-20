@@ -1,17 +1,17 @@
 package com.spyker3d.bininfo.history.data.repository
 
-import android.util.Log
 import com.spyker3d.bininfo.history.data.db.AppDatabase
 import com.spyker3d.bininfo.history.domain.api.HistoryRepository
-import com.spyker3d.bininfo.history.mapper.MapperCardInfoDb.mapToDb
-import com.spyker3d.bininfo.history.mapper.MapperCardInfoDb.mapToDomain
+import com.spyker3d.bininfo.history.data.db.mapper.MapperCardInfoDb.mapToDb
+import com.spyker3d.bininfo.history.data.db.mapper.MapperCardInfoDb.mapToDomain
 import com.spyker3d.bininfo.search.domain.entities.CardInfo
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 
 class HistoryRepositoryImpl(private val appDatabase: AppDatabase) : HistoryRepository {
     override suspend fun insertCardInfo(cardInfo: CardInfo) {
-        appDatabase.cardInfoDao().insertEntity(cardInfo.mapToDb())
+        val timeAdded = System.currentTimeMillis()
+        appDatabase.cardInfoDao().insertEntity(cardInfo.mapToDb(timeAdded))
     }
 
     override suspend fun deleteCardInfo(binNumber: String) {

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/searchFragment"
+        android:icon="@drawable/bottoom_navigator_search_tab"
+        android:title="@string/search_tab"
+        />
+
+    <item
+        android:id="@+id/historyFragment"
+        android:icon="@drawable/bottomnavigator_medialibrary_tab"
+        android:title="@string/history_tab"
+        />
+</menu>

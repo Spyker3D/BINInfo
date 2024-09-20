@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">BINInfo</string>
+    <string name="no_internet_message">Check your internet connection</string>
+    <string name="time_out_message">Server connection timeout</string>
+    <string name="server_error">Server error</string>
+    <string name="not_found_message">BIN number not found</string>
+    <string name="search_tab">Search by BIN</string>
+    <string name="card_details_tab">Card details</string>
+    <string name="history_tab">Query history</string>
+    <string name="settings_tab">Settings</string>
+    <string name="text_input_layout_hint">XXXX XXXX</string>
+    <string name="search_hint_text">Enter the first 6 to 8 digits of a card number (BIN/IIN):</string>
+    <string name="no_history_notification">Search history is empty</string>
+    <string name="search_bin">Lookup</string>
+    <string name="card_details">Card and emitting bank info:</string>
+    <string name="payment_network">PAYMENT NETWORK</string>
+    <string name="brand">BRAND</string>
+    <string name="card_number">CARD NUMBER</string>
+    <string name="number_length">LENGTH</string>
+    <string name="luhn">LUHN</string>
+    <string name="type">TYPE</string>
+    <string name="prepaid">PREPAID</string>
+    <string name="country">COUNTRY</string>
+    <string name="latitude">latitude:</string>
+    <string name="longitude">longitude:</string>
+    <string name="bank">BANK</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="debit">Debit</string>
+    <string name="credit">Credit</string>
+    <string name="delete">Delete card from history</string>
+</resources>

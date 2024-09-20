@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BINInfo" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/White</item>
+        <item name="colorOnPrimary">@color/Black</item>
+    </style>
+
+    <style name="Theme.BINInfo" parent="Base.Theme.BINInfo" />
+</resources>

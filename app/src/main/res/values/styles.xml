@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ToolbarTitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">22sp</item>
+        <item name="android:fontFamily">@font/sf_pro_display_medium</item>
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+    </style>
+
+    <style name="MediaLibraryTabLayoutTextStyle">
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/sf_pro_display_medium</item>
+    </style>
+
+    <style name="BottomNavigationViewTextItems">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">@font/sf_pro_display_regular</item>
+    </style>
+
+    <style name="TextBoxOutlined" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/text_input_layout_stroke_color</item>
+        <item name="android:textColorHint">?colorOnPrimary</item>
+        <item name="hintTextColor">@color/blue2</item>
+    </style>
+
+    <style name="EditTextNewPlaylist" parent="Widget.AppCompat.EditText">
+        <item name="android:inputType">textVisiblePassword</item>
+        <item name="fontFamily">@font/sf_pro_display_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">?colorOnPrimary</item>
+        <item name="android:textColorHint">@color/Gray_OR_White</item>
+    </style>
+
+    <style name="EditTextSearch" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/edittext_rounded</item>
+        <item name="android:inputType">textVisiblePassword</item>
+        <item name="maxLines">1</item>
+        <item name="fontFamily">@font/sf_pro_display_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">?colorOnPrimary</item>
+        <item name="android:textColorHint">@color/Gray_OR_White</item>
+        <item name="android:drawableLeft">@drawable/hand_lens_edittext</item>
+        <item name="android:drawablePadding">10dp</item>
+    </style>
+
+    <style name="SearchScreenMediumText">
+        <item name="android:fontFamily">@font/sf_pro_display_medium</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+    </style>
+
+    <style name="button_search" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="cornerRadius">8dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white2</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/sf_pro_display_medium</item>
+    </style>
+
+    <style name="button_delete" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="cornerRadius">8dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/dark_black</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/sf_pro_display_medium</item>
+    </style>
+
+    <style name="SearchScreenRegularText">
+        <item name="android:fontFamily">@font/sf_pro_display_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+    </style>
+
+    <style name="SearchScreenDetailsRegularText">
+        <item name="android:fontFamily">@font/sf_pro_display_regular</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/gray2</item>
+    </style>
+
+    <style name="SearchScreenSmallDetailsRegularText">
+        <item name="android:fontFamily">@font/sf_pro_display_regular</item>
+        <item name="android:textSize">8sp</item>
+        <item name="android:textColor">@color/gray2</item>
+    </style>
+
+    <style name="SearchScreenDetailsInputRegularText">
+        <item name="android:fontFamily">@font/sf_pro_display_regular</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+    </style>
+
+    <style name="SearchScreenCountryCoordinatesInput">
+        <item name="android:fontFamily">@font/sf_pro_display_regular</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+    </style>
+
+    <style name="SearchScreenCountryCoordinatesHeader">
+        <item name="android:fontFamily">@font/sf_pro_display_regular</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/gray2</item>
+    </style>
+
+    <style name="SearchScreenDetailsSemiboldText">
+        <item name="android:fontFamily">@font/sf_pro_display_semibold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+    </style>
+
+</resources>
